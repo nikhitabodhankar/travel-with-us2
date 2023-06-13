@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel With Us</title>
+    <style>
+        body {
+            background-image: url("img1.jpg");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            overflow-x: hidden;
+        }
+
+        .navbar {
+            position: relative;
+            left: 800px;
+            
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 15px 5px;
+            
+        }
+        .btn{
+            margin: 15px 5px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar a{
+            text-decoration: none;
+            padding: 20px;
+            color: black;
+            
+        }
+        .p1{
+            font-size: 60px;
+            font-family: 'Times New Roman', Times, serif;
+            position: relative;
+            left: 580px;
+            position: relative;
+            top: 120px;
+            color: white;
+            
+            
+        }
+        .p2{
+            font-size: 30px;
+            position: relative;
+            left: 560px;
+            position: relative;
+            top: 80px;
+            color: white;
+
+        }
+        .btn1 {
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: 15px;
+            width: 100px;
+            padding: 10px;
+            text-align: center;
+            background-color: whitesmoke;
+            color: black;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: box-shadow, transform;
+            transition-property: box-shadow, transform;
+            position: relative;
+            left: 660px;
+            position: relative;
+            top: 90px;
+
+        }
+        .btn1:hover, .btn1:focus, .btn1:active{
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+            background-color: black;
+            color: white;
+            
+        }
+        .btn2{
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: 15px;
+            width: 100px;
+            padding: 10px;
+            text-align: center;
+            background-color: whitesmoke;
+            color: black;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: box-shadow, transform;
+            transition-property: box-shadow, transform;
+            position: relative;
+            left: 680px;
+            position: relative;
+            top: 90px;
+        }
+
+        .btn2:hover, .btn2:focus, .btn2:active{
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+            background-color: black;
+            color: white; 
+        }
+        
+        
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Watch Video</a></li>
+                <li><a href="#">Demo Pages</a></li>
+                <li><a href="#">Blocks</a></li>
+                <button type="button" class="btn">Buy Now</button>
+
+            </ul>
+        </nav>
+    </header>
+    <p class="p1">Travel With Us</p>
+    <p class="p2">Explore the world in any direction</p>
+    <a href="#" class="btn1">Buy Now</a>
+    <a href="#" class="btn2">Ways to Travel</a>
+
+</body>
+
+</html>
